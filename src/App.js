@@ -5,7 +5,7 @@ import { useGlobalContext } from './context'
 import Navbar from './Navbar'
 import CartContainer from './CartContainer'
 // items
-
+// another one in typescript in my github
 function App() {
   const {loading} = useGlobalContext();
   if (loading) {
